@@ -15,7 +15,7 @@ client のリポジトリ管理は `[project name]-client` で行う。
 ## アーキテクト
 
 React<br/>
-react-router-don<br/>
+react-router-dom<br/>
 axios<br/>
 mysql<br/>
 express(Sequelize)<br/>
