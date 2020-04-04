@@ -1,19 +1,19 @@
 {
-  "name": "gunnery-sergeant-gerheim",
-  "version": "1.0.0",
-  "description": "react-express のボイラーテンプレートです。",
-  "main": "index.js",
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yukiorita1117/gunnery-sergeant-gerheim.git"
-  },
-  "author": "json_hardcoder",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yukiorita1117/gunnery-sergeant-gerheim/issues"
-  },
-  "homepage": "https://github.com/yukiorita1117/gunnery-sergeant-gerheim#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.1.0",
+    "pug": "2.0.0-beta11",
+    "sequelize": "^5.21.5",
+    "sequelize-cli": "^5.5.1"
+  }
 }
