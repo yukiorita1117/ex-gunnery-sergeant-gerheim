@@ -37,3 +37,8 @@ express(Sequelize)<br/>
   - DB の OR マッピングされたモデルの定義を記述するファイルを格納するディレクトリ。models ディレクトリ配下のモデルを読み込む index.js が作成される。（後述）
 - seeders
   - テスト目的で利用する DB データ(seed)を作成するためのスクリプトファイルが格納されるディレクトリ。
+
+## database 関連
+
+`/docker-mysql`のリポジトリ参照。<br/>
+今回 database は docker-mysql プロジェクトを用いている。
